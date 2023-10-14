@@ -1,4 +1,4 @@
-/* metodh_css */
+/* 01_metodh_css */
 .conteiner{
   background: red;
   color: white;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-/* class id selectors */
+/* 02_class id selectors */
 .selectors{
   font-family: Verdana, "DejaVu Sans", sans-serif;
 }
@@ -41,7 +41,7 @@
   font-size: 1.4rem;
 }
 
-/* grouping selectors */
+/* 03_grouping selectors */
 .grouping{
   font-family: Helvetica, "Times New Roman", sans-serif;
   background: white;
@@ -60,7 +60,7 @@
   background: yellow;
 }
 
-/* chaining selectors  */
+/* 04_chaining selectors  */
 .avatar.proportioned{
   width: 300px;
 }
@@ -68,4 +68,54 @@
 .avatar.distorted {
   height: 400px;
   width: 200px;
+}
+
+/* 05_descendant combinator  */
+.container{
+  background: yellow;
+  text-align: center;
+  color: red;
+  font-size: large;
+}
+
+/* 06_cascade */
+body{
+  font-family: sans-serif;
+}
+
+.paragraph{
+  font-weight: 950;
+  font-size: 2rem;
+}
+
+.paragraph.small-paragraph{
+  font-size: 1.2rem;
+}
+
+.button{
+  border: 2px solid black;
+}
+
+#confirm-button{
+  background: green;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#cancel-button{
+  font-size: 1.6rem;
+  background: white;
+  padding-left: 8px;
+  padding-right: 9px;
+}
+
+.text{
+  font-weight: 200;
+  font-size: xx-large
+}
+
+.text.child{
+  font-weight: 800;
+  font-size: 1.2rem;
 }
