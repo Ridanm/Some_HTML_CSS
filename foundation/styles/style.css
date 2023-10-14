@@ -1,0 +1,121 @@
+/* 01_metodh_css */
+.conteiner{
+  background: red;
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* 02_class id selectors */
+.selectors{
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.numbers, .odd{
+  background: rgb(235, 172, 172);
+}
+
+.numbers, #p_1{
+  font-size: 1.4rem;
+}
+
+.numbers, #p_2{
+  color: blue;
+  font-size: 2.6rem;
+  font-weight:500;
+}
+
+.numbers, #p_3{
+  font-size: xx-large;
+}
+
+.numbers, #p_4{
+  background: rgb(139, 230, 103);
+  font-weight: 600;
+  font-size: xx-large;
+  font-size: 1.6rem;
+}
+
+.numbers, #p_5{
+  font-size: 1.4rem;
+}
+
+/* 03_grouping selectors */
+.grouping{
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  background: white;
+}
+
+.btn{
+  font-size: 28px
+}
+
+#btn_click{
+  background: black;
+  color: white;
+}
+
+#btn_no{
+  background: yellow;
+}
+
+/* 04_chaining selectors  */
+.avatar.proportioned{
+  width: 300px;
+}
+ 
+.avatar.distorted {
+  height: 400px;
+  width: 200px;
+}
+
+/* 05_descendant combinator  */
+.container{
+  background: yellow;
+  text-align: center;
+  color: red;
+  font-size: large;
+}
+
+/* 06_cascade */
+body{
+  font-family: sans-serif;
+}
+
+.paragraph{
+  font-weight: 950;
+  font-size: 2rem;
+}
+
+.paragraph.small-paragraph{
+  font-size: 1.2rem;
+}
+
+.button{
+  border: 2px solid black;
+}
+
+#confirm-button{
+  background: green;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#cancel-button{
+  font-size: 1.6rem;
+  background: white;
+  padding-left: 8px;
+  padding-right: 9px;
+}
+
+.text{
+  font-weight: 200;
+  font-size: xx-large
+}
+
+.text.child{
+  font-weight: 800;
+  font-size: 1.2rem;
+}
