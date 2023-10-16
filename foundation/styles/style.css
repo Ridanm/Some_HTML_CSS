@@ -16,39 +16,36 @@
   background: rgb(235, 172, 172);
 }
 
-.numbers, #p_1{
+#p_1{
   font-size: 1.4rem;
 }
 
-.numbers, #p_2{
+#p_2{
   color: blue;
   font-size: 2.6rem;
   font-weight:500;
 }
 
-.numbers, #p_3{
+#p_3{
   font-size: xx-large;
 }
 
-.numbers, #p_4{
+#p_4{
   background: rgb(139, 230, 103);
   font-weight: 600;
   font-size: xx-large;
   font-size: 1.6rem;
 }
 
-.numbers, #p_5{
+#p_5{
   font-size: 1.4rem;
 }
 
 /* 03_grouping selectors */
-.grouping{
-  font-family: Helvetica, "Times New Roman", sans-serif;
-  background: white;
-}
-
+.grouping, 
 .btn{
-  font-size: 28px
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
 }
 
 #btn_click{
@@ -71,11 +68,13 @@
 }
 
 /* 05_descendant combinator  */
-.container{
+.container .text{
   background: yellow;
   text-align: center;
   color: red;
   font-size: large;
+  font-family: Roman, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
 }
 
 /* 06_cascade */
