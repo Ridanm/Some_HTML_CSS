@@ -18,8 +18,8 @@
   height: 80px;
 }
 
-/*02-flex-header*/
 
+/*02-flex-header*/
 .header  {
   font-family:'Times New Roman', Times, serif;
   background: papayawhip;
@@ -53,3 +53,76 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/*03-flex-header-2*
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.logo-header-2 {
+  color: rebeccapurple;
+  font-size: 34px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.notifications {
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  margin-right: 10px;
+  padding: 8px 20px;
+  }
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+  padding: 0;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.logo-links{
+  display: flex;
+}
+
+.notification-profile-image{
+  display: flex;
+  align-items: center;
+}
+
+
+/*04-flex-information*/
