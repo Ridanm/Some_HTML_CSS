@@ -1,0 +1,71 @@
+
+/*06-flex-layout*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.body-layout {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-layout {
+  width: 400px;
+  height: auto;
+}
+
+.button-layout {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 8px;
+}
+
+.input-layout {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 10px 24px;
+  width: 250px;
+  margin-bottom: 16px;
+  
+}
+
+.header-layout{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-links{
+  list-style: none;  
+  margin: 0;
+  padding: 8px;
+  display: flex;
+  gap: 10px
+}
+
+.link{
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: rgb(74, 42, 42);
+}
+
+.footer-layout{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(117, 114, 114);
+  background: rgb(226, 226, 226);
+}
